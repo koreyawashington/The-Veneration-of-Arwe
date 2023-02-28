@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Four_Arwe_panels.jpg/800px-Four_Arwe_panels.jpg);
+}
+h4{
+    font-size: 22px;
+    color: green;
+}
+
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 32px;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+h6{
+    font-size: 22px;
+}
+.banner h2, .banner h3, .banner h6,.banner h4{
+    margin: 0;
+    text-shadow: 2px 2px 6px #000;
+    text-align: center;
+}
+.banner{
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    border: 5px ridge brown;
+}
+img{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+} 
+a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+}

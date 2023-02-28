@@ -1,0 +1,98 @@
+
+body{
+   
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    margin: 0;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Four_Arwe_panels.jpg/800px-Four_Arwe_panels.jpg);
+}
+#game-board{
+    background-color: black;
+    width: 100vmin;
+    height: 100vmin;
+    display: grid;
+    grid-template-rows: repeat(21,1fr);
+    grid-template-columns: repeat(21,1fr);
+    
+}
+.snake{
+background-color: rgb(117, 151, 49);
+border: .25vmin solid black;
+
+}
+.food{
+background-color: #eee3d9;
+border: .25vmin solid black;
+}
+a{
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    background-color: black;
+}
+/* /* h1{
+    font-size: 60px;
+}
+h3{
+    font-size: 32px;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+h6{
+    font-size: 22px;
+}
+.banner h1, .banner h3, .banner h6{
+    margin: 0;
+    text-shadow: 2px 2px 6px #000;
+    text-align: center;
+}
+.banner{
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://media.istockphoto.com/id/544674102/photo/snake-cottonmouth-coiled-mouth-open.jpg?s=612x612&w=0&k=20&c=8gNWpRd_Q0iQmrUYzMaZtEKkazSeuYpSBnJhVBw-ERE=);
+} 
+.wrapper{
+    width: 65vmin;
+    height: 70vmin;
+    display: flex;
+    flex-direction:column;
+    overflow:hidden;
+    background: #000000;
+    border: 5px ridge brown;
+}
+.game-details{
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    border: 5px ridge brown;
+    background-color: rgb(240, 189, 80);
+}
+
+.play-board{
+    width:100%;
+    height:100%;
+    display: grid;
+    grid-template: repeat(50,1fr) / repeat(50,1fr);
+    background: black;
+}
+.play-board .food{
+    background: rgb(252, 252, 252);
+}
+a{
+    color: wheat;
+    background: brown;
+    
+} */
+
+
