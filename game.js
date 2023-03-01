@@ -1,21 +1,19 @@
-import { updateLoop as updateSnake, drawLoop as drawSnake,snakeSpeed, getSnakeHead, snakeIntersection, } from "./snake.js"
+import { updateLoop as updateSnake, drawLoop as drawSnake,speed, getSnakeHead, snakeIntersection, } from "./snake.js"
 
 import {updateLoop as updateFood, drawLoop as drawFood} from "./food.js"
 
 import { outsideGrid } from "./grid.js"
-//score added
-// let scoreDisplay = document.getElementById('scoreDisplay')
-// let score = 0
-// scoreDisplay.innerHTML = score
-// console.log(score);
-//score added
+
 let lastRenderTime = 0
 let gameOver = Boolean(false)
 const gameBoard = document.getElementById('game-board')
 
 function main(currentTime) {
 if(gameOver){
-    return alert('You MUST Feed the Snake!')
+    document.location.reload()
+    return alert('You have failed to defeat the snake. TRY AGAIN!!')
+  
+
     // if(confirm('You were defeated. Press ok to reset the game and TRY AGAIN!')) {
     //     window.location = '/'
     // }
@@ -25,7 +23,7 @@ if(gameOver){
 
      window.requestAnimationFrame(main)
      const secondsSinceLastRender = (currentTime - lastRenderTime) / 1000 //divide by 1000 because this is in miliseconds and we want to convert into seconds
-    if(secondsSinceLastRender < 1 / snakeSpeed) return
+    if(secondsSinceLastRender < 1 / speed) return
    
  
     lastRenderTime = currentTime
@@ -38,6 +36,7 @@ if(gameOver){
 window.requestAnimationFrame(main)
 
 function updateLoop() {
+    
     updateSnake()
     updateFood()
     checkFailure()

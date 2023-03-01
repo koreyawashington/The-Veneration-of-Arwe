@@ -9,15 +9,23 @@
     <title>መዋጋት</title>
 </head>
 <body>
-    <div id="scoreDisplay"></div>
+    <div class="wrapper">
+        <div class="game-details">
+            <span class="score">Score: <div id="scoreDisplay"></div> </span>
+            
+            <!-- <span class="high-score">High Score:  </span> -->
+        </div> 
+    
+    </div>
 
     <div id="game-board"></div>
     
-    <nav><a href="./story.html">Intructions</a></nav>
+    <div id="buttons"></div>
+    <nav><a id="instructions" href="./story.html">Instructions</a></nav>
     <!-- <nav><a href="./coverPageIndex.html">Start Over!</a></nav> -->
-    <nav><a href="game.html">Feed the Snake!</a></nav>
+    <nav><a id="resetbtn" href="game.html">Start Over!</a></nav>
     <!-- <nav><a href="game2.html">Hard Mode!</a></nav> -->
-
+</div>
     
     
 
@@ -32,12 +40,7 @@
         </div>
     </div> -->
 
-    <!-- <div class="wrapper">
-        <div class="game-details">
-            <span class="score">Score: </span>
-            
-            <span class="high-score">High Score: </span>
-        </div> 
+    <!-- 
         <canvas class="play-board"></canvas>
     </div> -->
 </body>

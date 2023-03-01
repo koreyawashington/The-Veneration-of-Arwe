@@ -28,12 +28,28 @@ background-color: #eee3d9;
 border: .25vmin solid black;
 }
 a{
-    display: flexbox;
+    display: flex;
     justify-content: center;
     align-items: center;
     color: red;
     background-color: black;
+    
 }
+.game-details{
+    justify-content: left;
+    align-items: center;
+    border: ridge brown;
+    margin-right: 25px;
+    color: goldenrod;
+    background-color: black;
+    font-size: xx-large;
+
+}
+.score{
+    justify-content: center;
+    align-items: center;
+}
+
 /* /* h1{
     font-size: 60px;
 }

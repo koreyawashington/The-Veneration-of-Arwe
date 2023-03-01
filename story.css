@@ -35,15 +35,20 @@ h6{
 }
 .banner{
     color: white;
-    height: 300px;
-    display: flex;
+    height: 400px;
+    
+    display: inline-block;
     justify-content: center;
     align-items: center;
     background: #000;
     border: 5px ridge brown;
 }
+.banner-text{
+    display: inline-block;
+    justify-content: center;
+}
 img{
-    display: flex;
+    display: flexbox;
     justify-content: center;
     align-items:center;
 } 

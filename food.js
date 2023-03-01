@@ -1,16 +1,27 @@
 import { onSnake,expandSnake } from "./snake.js"
 import {randomGridPosition} from './grid.js'
-
-
+//score added
+let scoreDisplay = document.getElementById('scoreDisplay')
+let score = 0
+scoreDisplay.innerHTML = score
+//scored added
 let food = getRandomFoodPosition()
-const EXPANSION_RATE = 5
+const snakeExpandingRate = 3
 
 export function updateLoop() {
     if(onSnake(food)) {
-        expandSnake(EXPANSION_RATE)
+        expandSnake(snakeExpandingRate)
         food = getRandomFoodPosition()
-        // score++
-        // scoreDisplay.textContent = score
+        //score added
+        score += 21 // ++ or += to add a multiple of scores
+        scoreDisplay.textContent = score
+        console.log(score);
+        //score added
+    }else if(score == 420){
+      score = 0
+      window.location.reload()
+      return alert('You Conquered the snake! You won!!')
+      
     }
   }
 

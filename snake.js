@@ -1,8 +1,11 @@
 import { getInputDirection } from "./input.js"
 
-export const snakeSpeed = 10
+export const speed = 14
 const snakeBody = [ {x:11,y:11} ]
 let newSegments = 0
+
+
+
 
 export function updateLoop() {
     addSegments()
@@ -13,6 +16,7 @@ export function updateLoop() {
   }
 snakeBody[0].x += inputDirection.x
 snakeBody[0].y += inputDirection.y
+
 }
 export function drawLoop(gameBoard){
     snakeBody.forEach(segment => {
