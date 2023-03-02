@@ -1,4 +1,9 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
 body{
    
     width: 100vw;
@@ -9,6 +14,9 @@ body{
     margin: 0;
     background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Four_Arwe_panels.jpg/800px-Four_Arwe_panels.jpg);
 }
+h3{
+    color: beige;
+}
 #game-board{
     background-color: black;
     width: 100vmin;
@@ -18,6 +26,7 @@ body{
     grid-template-columns: repeat(21,1fr);
     
 }
+
 .snake{
 background-color: rgb(117, 151, 49);
 border: .25vmin solid black;
@@ -36,18 +45,36 @@ a{
     
 }
 .game-details{
-    justify-content: left;
-    align-items: center;
+    justify-content: start;
+    align-items:auto;
     border: ridge brown;
-    margin-right: 25px;
-    color: goldenrod;
+    margin-right: 100px;
+    color: yellow;
     background-color: black;
-    font-size: xx-large;
+    font-size: 15px;
+    width: fit-content;
+    height:min-content;
 
+}
+#rebtn{
+    margin-right: 150px;
+    margin-left:150px ;
+    display: flex;
+    border: ridge brown;
+    color: purple;
+    font-size: larger;
+}
+#instructions{
+display: flex;
+margin-bottom: 500px;
+border: ridge brown;
+color: purple;
+font-size: 25px;
 }
 .score{
     justify-content: center;
     align-items: center;
+    font-size: 25px;
 }
 
 /* /* h1{

@@ -1,5 +1,5 @@
 import { onSnake,expandSnake } from "./snake.js"
-import {randomGridPosition} from './grid.js'
+import {gridposits} from './grid.js'
 //score added
 let scoreDisplay = document.getElementById('scoreDisplay')
 let score = 0
@@ -13,7 +13,7 @@ export function updateLoop() {
         expandSnake(snakeExpandingRate)
         food = getRandomFoodPosition()
         //score added
-        score += 21 // ++ or += to add a multiple of scores
+        score += 420// ++ or += to add a multiple of scores
         scoreDisplay.textContent = score
         console.log(score);
         //score added
@@ -39,7 +39,7 @@ export function drawLoop(gameBoard){
   function getRandomFoodPosition() {
     let newFoodPosition
     while(newFoodPosition == null || onSnake(newFoodPosition)) {
-        newFoodPosition = randomGridPosition()
+        newFoodPosition = gridposits()
     }
     return newFoodPosition
   }
