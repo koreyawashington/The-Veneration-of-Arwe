@@ -10,7 +10,7 @@ const gameBoard = document.getElementById('game-board')
 
 function main(currentTime) {
 if(gameOver){
-    document.location.reload()
+    // document.location.reload()
     return alert('You have failed to defeat the snake. TRY AGAIN!!')
   
 
@@ -22,6 +22,7 @@ if(gameOver){
 
 
      window.requestAnimationFrame(main)
+     
      const secondsSinceLastRender = (currentTime - lastRenderTime) / 1000 //divide by 1000 because this is in miliseconds and we want to convert into seconds
     if(secondsSinceLastRender < 1 / speed) return
    
@@ -35,6 +36,9 @@ if(gameOver){
 
 window.requestAnimationFrame(main)
 
+
+
+
 function updateLoop() {
     
     updateSnake()
@@ -42,11 +46,17 @@ function updateLoop() {
     checkFailure()
 }
 
+
+
+
 function drawLoop() {
     gameBoard.innerHTML = ''
     drawSnake(gameBoard)
     drawFood(gameBoard)
 }
+
+
+
 
 function checkFailure() {
     gameOver = outsideGrid(getSnakeHead()) || snakeIntersection()
@@ -54,29 +64,4 @@ function checkFailure() {
 
 
 
-//first game board idea
-
-// const beat = new Audio();
-
-
-// const playBoard = document.querySelector(".play-board");
-// let foodX, foodY;
-
-// const changeFoodPosition = () => {
-//     foodX = Math.floor(Math.random() * 50) + 1,
-//     foodY = Math.floor(Math.random() * 50) + 1;
-// };
-// changeFoodPosition();
-
-// const initGame = () =>{
-//     let htmlMarkup = `<div class="food" style="grid area:${foodY} / ${foodX} "></div>`;
-//     playBoard.innerHTML = htmlMarkup;
-// };
-
-// initGame();
-
-// console.log(playBoard);
-// console.log(changeFoodPosition);
-// console.log(initGame);
-// console.log(foodX,foodY);
 

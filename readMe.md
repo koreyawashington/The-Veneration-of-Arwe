@@ -1,11 +1,10 @@
 Project Title-
-The project I created was a snake game. The snake game title is "The Veneration of Arwe. My game is based off of a mythology story of the serpent king that once ruled, the land that is known as Ethiopia, for 400 years before the Solomanic Dynasty.
+The project I created was a snake game. The snake game title is "The Veneration of Arwe. My game is based off of a mythology story of the serpent king that once ruled, the land that is known as Ethiopia, for 400 years before the Solomonic Dynasty.
 
 Motivation-
-I am a student taking a Software Engineering course at Perscholas, for the first big project week the students were assigned to create a basic game using knowledge from html, css, and javascript. I was motivated to create this game from reading a book about javascript and one of the beginner games inside of that book was making a snake game. I choose the snake game because I major in mathematics and I like coming up with formulas using math.() methods. I wanted to be creative when brainstorming and add a story line based off of a real snake story. So I googled a mythological story based in Ethiopia about a snake and found out about Arwe the Snake King who ruled for 400 years until he was defeated by the Solomonic Dynasty. I gave my game and Ethiopian Theme because I believe that the first human life forms were traced furthest back to the land of ethiopia and I am believer in Hailie Selassie I and Empress Menen so I gave my game my very own personal touch.
+I am a student taking a Software Engineering course at Perscholas, for the first big project week the students were assigned to create a basic game using knowledge from html, css, and javascript. I was motivated to create this game from reading a book about javascript and one of the beginner games inside of that book was making a snake game. I choose the snake game because I major in mathematics and I like coming up with formulas using math.() methods. I wanted to be creative when brainstorming and add a story line based off of a real snake story. So I googled a mythological story based in Ethiopia about a snake and found out about Arwe the Snake King who ruled for 400 years until he was defeated by the Solomonic Dynasty. I gave my game and Ethiopian Theme because I believe that the first human life forms were traced furthest back to the land of ethiopia and I am believer in Haile Selassie I and Empress Menen so I gave my game my very own personal touch.
 
 Build Status-
-Buidld status of continus integration i.e. travis, appveyover etc
 
 Code Style-
 If using any code style like xo, standard ect. That will help others while contributing to you project
@@ -13,7 +12,7 @@ If using any code style like xo, standard ect. That will help others while contr
 Screenshots-
 Include logo/demo screenshot etc
 
-Tech/FrameWorkd Used-
+Tech/FrameWorks Used-
 
 Features-
 My version of the snake games stands out because it is based off of a mythological snake and uses real ethiopian drawings of the storyline. 

@@ -19,7 +19,7 @@ h4{
 h2{
     font-size: 40px;
 }
-h3{
+h4{
     font-size: 32px;
     font-weight: normal;
     text-transform: uppercase;
@@ -37,7 +37,6 @@ h6{
     color: white;
     height: 400px;
     
-    
     display: inline-block;
     justify-content: center;
     align-items: center;
@@ -52,7 +51,6 @@ img{
     display: flexbox;
     justify-content: center;
     align-items:center;
-    
 } 
 a{
     display: flex;

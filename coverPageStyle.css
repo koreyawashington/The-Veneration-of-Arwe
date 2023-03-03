@@ -4,6 +4,28 @@
     box-sizing: border-box;
     
 }
+ .imageGrid {  display: grid;
+    grid-template-columns: 2.4fr 2fr;
+    grid-template-rows: 1.6fr;
+    gap: 0px 333px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "left right";
+  }
+  
+  .left { grid-area: left;
+    float: left;
+    padding: 35px;
+    
+}
+  
+  .right { grid-area: right;
+    float: right;
+    margin-left: 300px;
+    padding:  35px;
+ } 
+  
+  
 body{
     display:flex;
     align-items:center;
@@ -22,16 +44,21 @@ h3{
     letter-spacing: 4px;
 }
 h6{
-    font-size: 22px;
+    justify-content: center;
+    font-size: 25px;
 }
 .banner h1, .banner h3, .banner h6{
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
     text-shadow: 2px 2px 6px #000;
     text-align: center;
 }
 .banner{
     color: white;
-    height: 300px;
+    height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;

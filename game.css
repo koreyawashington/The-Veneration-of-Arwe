@@ -14,9 +14,10 @@ body{
     margin: 0;
     background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Four_Arwe_panels.jpg/800px-Four_Arwe_panels.jpg);
 }
-h3{
-    color: beige;
-}
+/* h3{
+    
+
+} */
 #game-board{
     background-color: black;
     width: 100vmin;
@@ -48,12 +49,16 @@ a{
     justify-content: start;
     align-items:auto;
     border: ridge brown;
+    border-width: medium 5px;
     margin-right: 100px;
+    
     color: yellow;
     background-color: black;
-    font-size: 15px;
-    width: fit-content;
+    font-size: 13px;
+    max-width: fit-content;
     height:min-content;
+
+    
 
 }
 #rebtn{
@@ -74,7 +79,7 @@ font-size: 25px;
 .score{
     justify-content: center;
     align-items: center;
-    font-size: 25px;
+    font-size: 21px;
 }
 
 /* /* h1{

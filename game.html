@@ -9,43 +9,62 @@
     <title>መዋጋት</title>
 </head>
 <body>
-    <iframe width="0%"height="0%" allowtransparency="true" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/238020003&color=%230066cc&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-    <nav><a id="instructions" href="./story.html">Instructions</a></nav>
+
+    <!-- This is my music element that plays the music for this html page. -->
+    <iframe width="0%" height="0%" loop="loop" allowtransparency="true" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/257744027&color=%230066cc&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+
+
+
+    <!-- I created my button inside of the nav element, using an a element containing a url to the previous page to have easy access to the instructions.  -->
+    <nav><a id="instructions" href="./story.html">Instructions</a></nav> 
     
+
+    <!-- I created a div that contains how to start up the game and the score keeper. -->
         <div class="game-details">
-            <h3>How TO Play</h3>
-            <h3>Scoring Guidelines</h3>
-            <span class="score">Score: <div id="scoreDisplay"></div> </span>
+           
+            <!-- I created this section to add more decoration to my project.To start the game just press any of the the arrow keys(up,down,left,right) -->
+            <h3><span style = "color:orangered">How TO Play</span></h3>
+
+            <!-- I used multiple paragraph elements because the text was making my game board narrow. The game worked perfectly fine that way but I felt it did not look presentable that way -->
+            <p>To <span style = "color: green">START</span> the game press</p>
+            <P>any <span style = "color:blue">ARROW KEY</span> on your <span style = "color:blue">KEYBOARD</span></P>
+            <p>to get the <span style = "color: rgb(117, 151, 49)">SNAKE</span> to move</p>
+            <p>towards the <span style = "color: #eee3d9">LAMB</span></p>
+            <p>offering.</p>
+
+<!-- I used the span element to style specific words the exact way that I wanted it to be, this is my favorite practice of manipulation the color of specific words, and letter text content. -->
+
+            <h3><span style = "color:orangered">Scoring Guidelines</span></h3>
+
+            <p>For each  <span style = "color: #eee3d9">LAMB</span>, you'll earn </p>
+            <p>28 points and grow</p>
+            <p>the <span style = "color: rgb(117, 151, 49)">SNAKE</span> will</p>
+            <p>grow 3 times its</p>
+            <p>previous size.</p>
+            <p>To take the <span style = "color:magenta">THROWN</span>,</p>
+            <p>you must earn</p>
+            <p>420 points to <span style = "color:red">W</span>I<span style = "color:green">N</span>!</p>
             
-            <!-- <span class="high-score">High Score:  </span> -->
+
+            <span class ="rounds"><span style = "color: white">Round:</span><div id="roundDisplay"></div></span>
+            <!-- I add a span element to allow myself to be able to keep my text inside of the span next to the actual score display div that is keeping track of the points earned -->
+            <span class ="score"><span style = "color: white">Score:</span><div id="scoreDisplay"></div></span>
+            
+           
         </div> 
     
     
-
+<!-- For my game board I used a div instead of a canvas element because I personally believe there is more flexibility and less worked to create a grid using html and css. -->
     <div id="game-board"></div>
     
    
     
-    <!-- <nav><a href="./coverPageIndex.html">Start Over!</a></nav> -->
-    <nav><a id="rebtn" href="game.html">Refresh</a></nav>
-    <!-- <nav><a href="game2.html">Hard Mode!</a></nav> -->
-
+    <!-- This is my reset button using another nav, a element, and URL. -->
+    <nav><a id="rebtn" href="game.html">REFRESH</a></nav>
     
     
+    
 
-    <!-- /*first attempt for snake game idea below*/ -->
-
-    <!-- <nav><a href="coverPageIndex.html">Previous Page</a></nav> -->
-    <!-- <div class="banner">
-        <div class="banner-text">
-            <h1>Flexbox banner</h1>
-            <h3>Perfectly Centered</h3>
-            <h6>No matter how many lines of text you use.</h6>
-        </div>
-    </div> -->
-
-    <!-- 
-        <canvas class="play-board"></canvas>
-    </div> -->
+   
 </body>
 </html>
