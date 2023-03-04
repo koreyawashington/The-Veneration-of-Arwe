@@ -29,7 +29,7 @@ export function updateLoop() {
     }else if(score == 420){
       score = 0
       // window.location.reload()
-      return alert('Sweet VICTORY! You Conquered the SNAKE, You won!!')
+      return alert('JAH RASTAFARI RULE! RULE! RULE! HAILE SELASSIE I IS THE RULER!')
       
     }
   }

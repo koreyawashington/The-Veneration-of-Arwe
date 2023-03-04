@@ -11,7 +11,7 @@ const gameBoard = document.getElementById('game-board')
 function main(currentTime) {
 if(gameOver){
     // document.location.reload()
-    return alert('You have failed to defeat the SNAKE. TRY AGAIN!!')
+    return alert('You have failed. TRY AGAIN!!')
   
 
     // if(confirm('You were defeated. Press ok to reset the game and TRY AGAIN!')) {
