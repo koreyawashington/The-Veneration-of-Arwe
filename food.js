@@ -12,14 +12,14 @@ let round = 0
 roundDisplay.innerHTML = round
 
 let food = getRandomFoodPosition()
-const snakeExpandingRate = 4
+const snakeExpandingRate = 3
 
 export function updateLoop() {
     if(onSnake(food)) {
         expandSnake(snakeExpandingRate)
         food = getRandomFoodPosition()
         //score added
-        score += 28// ++ or += to add a multiple of scores
+        score += 21// ++ or += to add a multiple of scores
         scoreDisplay.textContent = score
         console.log(score);
         //score added
@@ -29,7 +29,7 @@ export function updateLoop() {
     }else if(score == 420){
       score = 0
       // window.location.reload()
-      return alert('You Conquered the snake! You won!!')
+      return alert('Sweet VICTORY! You Conquered the SNAKE, You won!!')
       
     }
   }

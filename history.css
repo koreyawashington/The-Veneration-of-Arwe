@@ -5,10 +5,11 @@
     
 }
 body{
+    
     display:flex;
     align-items:center;
     justify-content: center;
-    min-height: 100vh;
+
     background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Saba_ephiop_02.jpg/1280px-Saba_ephiop_02.jpg);
 }
 h4{
@@ -17,7 +18,7 @@ h4{
 }
 
 h2{
-    font-size: 40px;
+    font-size: 30px;
 }
 h4{
     font-size: 32px;
@@ -25,6 +26,31 @@ h4{
     text-transform: uppercase;
     letter-spacing: 4px;
 }
+.imageGrid {  display: grid;
+    grid-template-columns: 2.4fr 2fr;
+    grid-template-rows: 1.6fr;
+    gap: 0px 333px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "left right";
+      margin-top: 40px;
+  }
+  
+  .left { grid-area: left;
+    float: left;
+    padding: 25px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+  
+  .right { grid-area: right;
+    float: right;
+    margin-left: 300px;
+    padding:  25px;
+    display: flex;
+    flex-direction: row;
+ } 
+  
 h6{
     font-size: 22px;
 }
@@ -34,24 +60,23 @@ h6{
     text-align: center;
 }
 .banner{
-    color: white;
-    height: 400px;
     
+    color: white;
+    max-height: min-content;
+    margin-top: 7px;
     display: inline-block;
     justify-content: center;
     align-items: center;
     background: #000;
     border: 5px ridge brown;
+    height: fit-content;
 }
 .banner-text{
     display: inline-block;
     justify-content: center;
 }
-img{
-    display: flexbox;
-    justify-content: center;
-    align-items:center;
-} 
+
+ 
 a{
     display: flex;
     justify-content: center;

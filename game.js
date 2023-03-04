@@ -11,7 +11,7 @@ const gameBoard = document.getElementById('game-board')
 function main(currentTime) {
 if(gameOver){
     // document.location.reload()
-    return alert('You have failed to defeat the snake. TRY AGAIN!!')
+    return alert('You have failed to defeat the SNAKE. TRY AGAIN!!')
   
 
     // if(confirm('You were defeated. Press ok to reset the game and TRY AGAIN!')) {
@@ -23,7 +23,7 @@ if(gameOver){
 
      window.requestAnimationFrame(main)
      
-     const secondsSinceLastRender = (currentTime - lastRenderTime) / 1000 //divide by 1000 because this is in miliseconds and we want to convert into seconds
+     const secondsSinceLastRender = (currentTime - lastRenderTime) / 1000 //divide by 1000 because this is in milliseconds and we want to convert into seconds
     if(secondsSinceLastRender < 1 / speed) return
    
  

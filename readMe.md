@@ -17,8 +17,11 @@ Tech/FrameWorks Used-
 Features-
 My version of the snake games stands out because it is based off of a mythological snake and uses real ethiopian drawings of the storyline. 
 
+Improvements/Upgrades-
+I would like to start with I want to add more levels like easy, medium, hard.
+
 Code Example-
-Show what the library does as concisely as possible, developers shoulbe be able to figure out how your project solves their problem by looking at the code example. Make sure the API you are showing off is obvios, and that your code is short and concise.
+Show what the library does as concisely as possible, developers should be be able to figure out how your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
 
 Installation-
 Provide step by step series of examples and explanations about how to get a development env running
@@ -33,11 +36,11 @@ Contribute-
 Please leave constructive feedback that contribute to making my project better! I am a first time engineer with little to no prior experience in coding. I know that I have a long way to go when it comes to coding and design, if you have any helpful tips or advice on how I can make my game better. Feel free to share resources on how I can improve for the future of my software engineering career.
 
 Credits-
-Thank you to my instructors Abraham and Colton for teaching me the basics to coding at PerScholas! Thank you Laura, a supporting staff at PerScholas for joining our class and being so motivational.
+Thank you to my ,ain instructors Abraham T. and Colton W. for teaching me the basics to coding at PerScholas! Thank you Laura, a supporting staff at PerScholas for joining our class and being so motivational.
 
 Saving the best for last, I want to give a loving thanks to my Husband for motivating me to go to school and being the first person to try my version of the snake game and love it. Thank you to my two year old son who cheered me on as I tried out my new game! Special thanks to my 7 month old daughter who filled the entire home with her cheerful screams throughout the brainstorming and making of this game. I love you all. I want to give the upmost important thanks to the Most High God for blessing me with the strength and wisdom to reaching my goals. Thank you, God. I love you!!!
 
-Give proper credits. This could be a link to any repo which inspired you to build this project, any blogposts or link to people who contributed in this project
+Give proper credits. This could be a link to any repo which inspired you to build this project, any blog posts or link to people who contributed in this project
 
 License-
 A short snippet describing the license(MIT. Apache, etc)
