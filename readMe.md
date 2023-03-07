@@ -2,6 +2,7 @@
 
 My project is a snake game and the title of my game is "The Veneration of Arwe". This game is dedicated to the Solomonic Dynasty.
 
+THIS PROJECT WAS BUILT WITH VISUAL STUDIO CODE(HTML,CSS,and Javascript)
 
 Motivation-
 I am a student taking a Software Engineering course at Perscholas, for the first big project week the students were assigned to create a basic game using knowledge from html, css, and javascript. I was motivated to create this game from reading a book about javascript and one of the beginner games inside of that book was making a snake game. I choose the snake game because I major in mathematics and I like coming up with formulas using math.() methods. I wanted to be creative when brainstorming and add a story line based off of a real snake story. So I googled a mythological story based in Ethiopia about a snake and found out about Arwe the Snake King who ruled for 400 years until he was defeated by the Solomonic Dynasty. I gave my game and Ethiopian Theme because I believe that the first human life forms were traced furthest back to the land of ethiopia and I am believer in Haile Selassie I and Empress Menen so I gave my game its very own personality.
