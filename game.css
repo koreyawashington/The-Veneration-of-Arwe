@@ -30,12 +30,12 @@ body{
 
 .snake{
 background-color: rgb(117, 151, 49);
-border: .25vmin solid black;
+border: .25vmin solid red;
 
 }
 .food{
 background-color: #eee3d9;
-border: .25vmin solid black;
+border: .25vmin solid white;
 }
 a{
     display: flex;
